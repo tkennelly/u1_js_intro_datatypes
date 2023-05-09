@@ -139,4 +139,95 @@
 //}
 
 
+// WORKING WITH MULTIPLE CONDITIONS
 
+// && is and, || is or, ! is tests opposite
+
+//if (age > 20 && =< 13) DOES NOT WORK 
+// if (age > 20 && age =< 13) DOES WORK
+
+// if () {}
+// else if () {}
+// else if () {}
+// else {}
+
+// instead of copying stuff over, just cheack out the readme under multiple conditions. note: for some reason he used == instead of === for most of these times. not entirely sure why.
+
+//Ternary Operators are the modern version of if/else if/else.
+
+//if (age >= 18) {
+//    canVote = 'yes'
+//} else {
+//    canVote = 'no'
+//}
+
+//can turn into
+
+//const ageInYears = 12
+//ageInYears > 18 ? console.log('can vote') : console.log('can not vote')
+
+//its essentially saying 'hey, is the thing i asked correct? heres what should happen is true, and heres if false. you can only have 2 answers so its very powerful but also limited.
+
+// SWITCH STATEMENTS
+
+//const food = 'fish'
+
+//switch(food) {
+//    case 'chicken':
+//        console.log('I will have the Chicken Parmesean')
+//        break
+//    case 'steak':
+//        console.log('The steak please, medium rare')
+//        break
+//    case 'fish':
+//        console.log('I think I will try the Salmon')
+//        break
+//    default:
+//        console.log('Please enter a valid entree')
+//}
+
+//there can be ; after the lines that dont have : but u dont need to right now
+
+// WHILE LOOPS
+
+//let n = 0
+//while (n < 50) {
+ //   console.log(n)
+//   n++
+//}
+
+// FOR LOOPS
+
+// inside our () we are putting 3 sets of instructions. where we begin, where we end, and how much we are incrumenting each time
+ //for (let i = 0; i < 10; i ++) {
+   // console.log(i)
+ //}
+
+//const foods = ['tacos', 'ramen', 'doubles', 'ceviche', 'shakshuka', 'fish and chips', 'birria', 'falafel']
+
+//for (let i = 0; i < foods.length; i++) {
+  //  console.log(`let's have ${foods[i]} for dinner tonight`)
+//}
+
+             
+            
+//const wizards = [
+//  {name: "Harry Potter", house: "Gryffindor"}, 
+//{name: "Lord Voldomort", house: "Slytherin"}, 
+ //{name: "Cedric Diggory", house: "Hufflepuff"},
+//    {name: "Luna Lovegood", house: "Ravenclaw"},  
+//    {name: "Albus Dumbledor", house: "Gryffindor"}, 
+//    {name: "Merlin", house: "Slytherin"}, 
+//    {name: "Pomona Sprout", house: "Hufflepuff"}, 
+//    {name: "Gilderoy Lockheart", house: "Ravenclaw"}, 
+//    {name: "Ron Weasley", house: "Gryffindor"}, 
+//    {name: "Severus Snape", house: "Slytherin"}, 
+//    {name: "Nymphadora Tonks", house: "Hufflepuff"}, 
+//    {name: "Padma Patil", house: "Ravenclaw"}, 
+//    {name: "Hermoine Granger", house: "Gryffindor"} 
+//   ]
+//for (let i = 0; i < wizards.length ; i++) {
+ //   if (wizards[i].house === 'Slytherin'){
+ //   console.log(wizards[i].name)
+  //  }
+//}
